@@ -17,7 +17,7 @@ while(message != "quit"):
         input=message
     )
 
-    print(response + "\n\n")
+    print(response.output_text + "\n\n")
 
     message = input()
 
